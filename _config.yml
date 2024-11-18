@@ -110,13 +110,10 @@ toc: true
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
   provider: utterances
-  # The provider options are as follows:
-  disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo : "Eo-yeon/eo-yeon.github.io"
-    issue-term : pathname
+    repo: "Eo-yeon/eo-yeon.github.io"
+    issue-term: pathname
 
   # Giscus options › https://giscus.app
   giscus:

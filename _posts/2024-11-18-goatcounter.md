@@ -14,7 +14,7 @@ pin: true
 
 그럼, **시작해볼까요?** 😊
 
-[블로그 구축 포스팅 보러가기](https://eo-yeon.github.io/posts/first/)
+[블로그 구축 포스팅 보러가기](https://eo-yeon.github.io/posts/first/)  
 [댓글 서비스 적용 포스팅 보러가기](https://eo-yeon.github.io/posts/comment/)
 
 ---
