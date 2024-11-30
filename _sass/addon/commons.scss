@@ -745,9 +745,11 @@ $btn-mb: 0.5rem;
     @extend %clickable-transition;
     @extend %sidebar-link-hover;
 
-    font-family: inherit;
-    font-weight: 900;
-    font-size: 1.75rem;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #101010;
+    text-align: center;
     line-height: 1.2;
     letter-spacing: 0.25px;
     margin-top: 1.25rem;
