@@ -678,6 +678,18 @@ mjx-container {
 $sidebar-display: 'sidebar-display';
 $btn-border-width: 3px;
 $btn-mb: 0.5rem;
+#sidebar {
+
+  .nav-link span {
+    color: #FFFFFF !important; /* 네비게이션 텍스트 흰색 */
+    opacity: 1 !important; /* 텍스트 투명도 제거 */
+  }
+
+  .nav-link:hover {
+    color: #FFFFFF !important; /* Hover 시 살짝 옅은 흰색 */
+    opacity: 1 !important; /* 텍스트 투명도 제거 */
+  }
+}
 
 #sidebar {
   @include pl-pr(0);
@@ -691,7 +703,7 @@ $btn-mb: 0.5rem;
   z-index: 99;
 
   // background: var(--sidebar-bg);
-  background: url('/assets/img/background.jpg');
+  background: url('/assets/img/background.png');
   background-size: auto;
   background-position: center;
   border-right: 1px solid var(--sidebar-border-color);
@@ -744,11 +756,10 @@ $btn-mb: 0.5rem;
   .site-title {
     @extend %clickable-transition;
     @extend %sidebar-link-hover;
-
+    color: #011411 !important; /* 사이트 제목 진하게 */
+    font-weight: bold;
     font-family: 'IBM Plex Sans KR', sans-serif;
     font-size: 2rem;
-    font-weight: bold;
-    color: #101010;
     text-align: center;
     line-height: 1.2;
     letter-spacing: 0.25px;
@@ -759,6 +770,8 @@ $btn-mb: 0.5rem;
   }
 
   .site-subtitle {
+    color: #efefef !important; /* 사이트 부제목 색상 변경 */
+    font-weight: bold; /* 글씨 굵기 추가 */
     font-size: 95%;
     color: var(--site-subtitle-color);
     margin-top: 0.25rem;
@@ -790,13 +803,13 @@ $btn-mb: 0.5rem;
           background-color: var(--sidebar-hover-bg);
           span{
             opacity: 1;
-            color : rgba(241, 241, 241, 0.99);
+            color : rgba(255, 255, 255, 0.99);
           }
           i {
             font-size : 100%;
             opacity: 1;
             margin-right: 1.5rem;
-            color : rgba(241, 241, 241, 0.99);
+            color : rgba(255, 255, 255, 0.99);
           }
         }
         i {
@@ -816,18 +829,18 @@ $btn-mb: 0.5rem;
       &.active {
         .nav-link {
           // color: var(--sidebar-active-color);
-          color : rgba(241, 241, 241, 0.99);
+          color : rgba(255, 255, 255, 0.99);
           background-color: var(--sidebar-hover-bg);
 
           span {
             opacity: 1;
-            color : rgba(241, 241, 241, 0.99);
+            color : rgba(255, 255, 255, 0.99);
           }
           i {
             font-size: 100%;
             opacity: 1;
             margin-right: 1.5rem;
-            color : rgba(241, 241, 241, 0.99);
+            color : rgba(255, 255, 255, 0.99);
           }
         }
       }
