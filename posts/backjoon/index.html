@@ -673,7 +673,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="336 words"
+  title="346 words"
 >
   <em>1 min</em> read</span>
 
@@ -722,17 +722,8 @@
 
 <h3 id="전체-코드-python"><span class="me-2">전체 코드 (Python)</span><a href="#전체-코드-python" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
-<p>```python
-n = int(input())</p>
-
-<p>max_l = 0
-max_num = []</p>
-
-<p>for i in range(1, n+1):
-    numbers = [n, i]</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-python highlighter-rouge"><div class="code-header">
+        <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
@@ -741,18 +732,37 @@ max_num = []</p>
 6
 7
 8
-</pre></td><td class="rouge-code"><pre>while numbers[-1] &gt;= 0:
-    numbers.append(numbers[-2] - numbers[-1])
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+</pre></td><td class="rouge-code"><pre><span class="n">n</span> <span class="o">=</span> <span class="nf">int</span><span class="p">(</span><span class="nf">input</span><span class="p">())</span>
 
-numbers.pop()
+<span class="n">max_l</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">max_num</span> <span class="o">=</span> <span class="p">[]</span>
 
-if max_l &lt; len(numbers):
-    max_l = len(numbers)
-    max_num = numbers
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+    <span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="n">n</span><span class="p">,</span> <span class="n">i</span><span class="p">]</span>
+
+    <span class="k">while</span> <span class="n">numbers</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">numbers</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">numbers</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span> <span class="o">-</span> <span class="n">numbers</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+
+    <span class="n">numbers</span><span class="p">.</span><span class="nf">pop</span><span class="p">()</span>
+    
+    <span class="k">if</span> <span class="n">max_l</span> <span class="o">&lt;</span> <span class="nf">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">):</span>
+        <span class="n">max_l</span> <span class="o">=</span> <span class="nf">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+        <span class="n">max_num</span> <span class="o">=</span> <span class="n">numbers</span>
+
+<span class="nf">print</span><span class="p">(</span><span class="n">max_l</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="o">*</span><span class="n">max_num</span><span class="p">)</span>
 </pre></td></tr></tbody></table></code></div></div>
-
-<p>print(max_l)
-print(*max_num)</p>
 
   </div>
 
