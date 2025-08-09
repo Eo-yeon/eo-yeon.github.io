@@ -4,13 +4,13 @@
   <id>https://eo-yeon.github.io/</id>
   <title>eoyeon</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-08-10T00:12:22+09:00</updated>
+  <updated>2025-08-10T00:24:36+09:00</updated>
   <author>
     <name>eoyeon</name>
     <uri>https://eo-yeon.github.io/</uri>
   </author>
   <link rel="self" type="application/atom+xml" href="https://eo-yeon.github.io/feed.xml"/>
-  <link rel="alternate" type="text/html" hreflang="en"
+  <link rel="alternate" type="text/html" hreflang="ko"
     href="https://eo-yeon.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 eoyeon </rights>
@@ -20,19 +20,21 @@
 
   
   <entry>
-    <title></title>
-    <link href="https://eo-yeon.github.io/posts/2025-08-09-backjoon/" rel="alternate" type="text/html" title="" />
-    <published>2025-08-10T00:12:22+09:00</published>
+    <title>백준 2635번 수 이어가기 문제 풀이 (Python)</title>
+    <link href="https://eo-yeon.github.io/posts/backjoon/" rel="alternate" type="text/html" title="백준 2635번 수 이어가기 문제 풀이 (Python)" />
+    <published>2025-08-09T00:00:00+09:00</published>
   
-    <updated>2025-08-10T00:12:22+09:00</updated>
+    <updated>2025-08-09T00:00:00+09:00</updated>
   
-    <id>https://eo-yeon.github.io/posts/2025-08-09-backjoon/</id>
-    <content type="text/html" src="https://eo-yeon.github.io/posts/2025-08-09-backjoon/" />
+    <id>https://eo-yeon.github.io/posts/backjoon/</id>
+    <content type="text/html" src="https://eo-yeon.github.io/posts/backjoon/" />
     <author>
       <name>eoyeon</name>
     </author>
 
   
+    
+    <category term="backjoon" />
     
   
 
