@@ -4,7 +4,7 @@
   <id>https://eo-yeon.github.io/</id>
   <title>eoyeon</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-08-09T23:01:36+09:00</updated>
+  <updated>2025-08-09T23:06:26+09:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://eo-yeon.github.io/</uri>
@@ -17,6 +17,40 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>백준 2635번 수 이어가기 문제 풀이 (Python)</title>
+    <link href="https://eo-yeon.github.io/posts/backjoon/" rel="alternate" type="text/html" title="백준 2635번 수 이어가기 문제 풀이 (Python)" />
+    <published>2025-08-09T10:28:00+09:00</published>
+  
+    <updated>2025-08-09T10:28:00+09:00</updated>
+  
+    <id>https://eo-yeon.github.io/posts/backjoon/</id>
+    <content type="text/html" src="https://eo-yeon.github.io/posts/backjoon/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="baekjoon" />
+    
+  
+
+  <summary>문제 요약
+주어진 양의 정수 N으로 시작하여, 두 번째 수부터는 앞의 두 수의 차를 이용해 새로운 수를 만드는 수열이 있습니다. 수열의 마지막 수가 음수가 되기 전까지 수열을 이어갈 때, 가장 긴 수열을 만들 수 있는 경우를 찾아야 합니다.
+
+접근 방법
+이 문제의 핵심은 첫 번째 수 N 다음으로 오는 두 번째 수가 무엇이냐에 따라 수열의 길이가 달라진다는 점입니다.
+
+따라서 두 번째 수를 1부터 N까지 모두 시도해보는 완전 탐색(Brute Force) 방식을 사용했습니다.
+
+  두 번째 수 i를 1부터 N까지 반복하면서 수열을 만들고, 그중 가장 긴 수열을 찾습니다.
+  각 수열이 완성되면 기존에 저장해 둔 가장 긴 수열과 길이를 비교해 갱신합니다.
+  모든 경우를 확인한 후, 가장 길었던 수열의 길이...</summary>
+
+  </entry>
 
   
   <entry>
@@ -198,57 +232,6 @@ goatCounter를 이용해 조회수 서비스 적용하는 방법
   
   
 ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>goatCounter를 이용해서 조회수 서비스 적용하는 방법</title>
-    <link href="https://eo-yeon.github.io/posts/goatcounter/" rel="alternate" type="text/html" title="goatCounter를 이용해서 조회수 서비스 적용하는 방법" />
-    <published>2024-11-18T00:00:00+09:00</published>
-  
-    <updated>2024-11-18T00:00:00+09:00</updated>
-  
-    <id>https://eo-yeon.github.io/posts/goatcounter/</id>
-    <content type="text/html" src="https://eo-yeon.github.io/posts/goatcounter/" />
-    <author>
-      <name>eoyeon</name>
-    </author>
-
-  
-    
-    <category term="opensource study" />
-    
-  
-
-  <summary>시작하기전 . . . 👻
-댓글 기능도 넣고 나니 이제 블로그다운 느낌이 점차 살아나는 것 같아 좋군요! 😎
-그런데 아직은 내가 쓴 글을 몇 명이 읽었는지, 정말 내 글이 읽히고 있는지 알 방법이 없네요.
-그래서 오늘은 바로 조회수 서비스를 적용하는 방법에 대해 포스팅해보려고 합니다.
-
-그럼, 시작해볼까요? 😊
-
-블로그 구축 포스팅 보러가기
-댓글 서비스 적용 포스팅 보러가기
-
-
-
-1. goatcounter사이트 이용
-
-  1.0 goatcounter 사이트에 접속합니다.
-
-
-
-
-
-  
-    1.1 sign up 버튼을 클릭합니다.
-  
-  
-    1.2 필요한 정보들을 입력합니다.
-    
-      Code: goatcounter를 사용할 때의 개인 코드
-      Site domain: 내 블로그...</summary>
 
   </entry>
 
