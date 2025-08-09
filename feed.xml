@@ -1,0 +1,257 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://eo-yeon.github.io/</id>
+  <title>eoyeon</title>
+  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
+  <updated>2025-08-09T22:57:39+09:00</updated>
+  <author>
+    <name>your_full_name</name>
+    <uri>https://eo-yeon.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://eo-yeon.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://eo-yeon.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 your_full_name </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>🎮 게임 개발기: 슈팅 게임 만들기</title>
+    <link href="https://eo-yeon.github.io/posts/pygame/" rel="alternate" type="text/html" title="🎮 게임 개발기: 슈팅 게임 만들기" />
+    <published>2024-12-03T00:00:00+09:00</published>
+  
+    <updated>2024-12-03T00:00:00+09:00</updated>
+  
+    <id>https://eo-yeon.github.io/posts/pygame/</id>
+    <content type="text/html" src="https://eo-yeon.github.io/posts/pygame/" />
+    <author>
+      <name>eoyeon</name>
+    </author>
+
+  
+    
+    <category term="opensource study" />
+    
+  
+
+  <summary>🎮 게임 개발기: “Shooting Game” 제작기
+
+2024학년 2학기 오픈소스 SW 개발 강의 중에 게임을 하나 만드는 과제가 있었는데요,
+이번 포스팅에서는 그 과정을 소개해 드릴까 해요. OwO!!
+
+
+
+0. 게임 소개
+
+일단 슈팅 게임을 만들기로 한 이유부터 말씀드릴게요.
+다른 장르에 비해 활동성이 높고, 수정하거나 추가할 수 있는 부분이 많아 보였기 때문입니다..
+구글과 깃허브를 통하여 여러 코드를 찾아보다가… 슈팅게임의 한 코드로 결정을 했습니다 !
+
+기반 코드
+from tkinter import *
+import time
+import math
+import random
+import sys
+
+window = Tk()
+window.title(&amp;quot;종강을 향해 쏴라!&amp;quot;)  # 게임 이름
+window....</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>애자일 학습 후기</title>
+    <link href="https://eo-yeon.github.io/posts/Agile/" rel="alternate" type="text/html" title="애자일 학습 후기" />
+    <published>2024-12-02T00:00:00+09:00</published>
+  
+    <updated>2024-12-02T00:00:00+09:00</updated>
+  
+    <id>https://eo-yeon.github.io/posts/Agile/</id>
+    <content type="text/html" src="https://eo-yeon.github.io/posts/Agile/" />
+    <author>
+      <name>eoyeon</name>
+    </author>
+
+  
+    
+    <category term="opensource study" />
+    
+  
+
+  <summary>애자일 학습 후기
+
+
+
+📝 애자일과의 첫 만남
+
+이번 학기에는 소프트웨어 개발 방법론 중 하나인 애자일(Agile)에 대해 배우게 되었다. 
+처음 애자일이라는 말을 들었을 때는 단순히 빠르고 효율적으로 개발하는 방법이라고만 생각했습니다.
+하지만 강의를 통해 애자일이 단순한 속도 중심의 개발 방식이 아니라, 협업, 소통, 그리고 변화에 대한 유연함을 강조하는 철학적 접근이라는 것을 알게 되었습니다. 특히, “계획을 따르기보다는 변화에 대응하라” 는 원칙이 가장 인상 깊었습니다.
+
+
+
+💡 애자일의 핵심 이해
+
+1. 폭포수 모델과 애자일의 차이
+애자일을 이해하기 위해 전통적인 폭포수 모델(Waterfall Model)과 비교해 보았습니다 !
+
+
+  폭포수 모델
+    
+      단계별로 진행되며, 초기 계...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Naver Search Advisor를 이용한 검색 엔진 노출 방법</title>
+    <link href="https://eo-yeon.github.io/posts/naver/" rel="alternate" type="text/html" title="Naver Search Advisor를 이용한 검색 엔진 노출 방법" />
+    <published>2024-11-19T00:00:00+09:00</published>
+  
+    <updated>2024-11-19T00:00:00+09:00</updated>
+  
+    <id>https://eo-yeon.github.io/posts/naver/</id>
+    <content type="text/html" src="https://eo-yeon.github.io/posts/naver/" />
+    <author>
+      <name>eoyeon</name>
+    </author>
+
+  
+    
+    <category term="opensource study" />
+    
+  
+
+  <summary>시작하기 전 . . . 🎀
+
+지난번에는 Google Search Console을 이용해 내 블로그 글이 검색에 노출되도록 설정하는 방법을 알려드렸는데요! 이번에는 네이버에서도 내 블로그를 검색할 수 있도록 등록하는 과정을 소개하려 합니다. 열심히 작성한 글들이 더 많은 사람들에게 보여지길 바라는 마음, 다들 같으시죠? 😎
+
+그럼, 시작해볼까요? 🎁
+
+블로그 구축 포스팅 보러가기
+댓글 서비스 적용 포스팅 보러가기
+조회수 서비스 적용 방법 보러가기
+Google Search Console을 이용한 검색 노출 방법
+
+
+
+1. Naver Search Advisor 활용하기
+
+1.0 Naver Search Advisor 접속
+
+  Naver Search Advisor 사이트에 접속합니다.
+
+
+
+1.1 로그인
+
+ ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Google Search Console를 이용한 검색 엔진 노출 방법</title>
+    <link href="https://eo-yeon.github.io/posts/google/" rel="alternate" type="text/html" title="Google Search Console를 이용한 검색 엔진 노출 방법" />
+    <published>2024-11-19T00:00:00+09:00</published>
+  
+    <updated>2024-11-19T00:00:00+09:00</updated>
+  
+    <id>https://eo-yeon.github.io/posts/google/</id>
+    <content type="text/html" src="https://eo-yeon.github.io/posts/google/" />
+    <author>
+      <name>eoyeon</name>
+    </author>
+
+  
+    
+    <category term="opensource study" />
+    
+  
+
+  <summary>시작하기전 . . . 🍊
+지난번에 goatCounter를 이용해서 조회수 서비스를 적용했었죠. 하지만 이 방법에는 치명적인 단점이 있었습니다! 바로 상대방이 내 블로그 주소를 모르는 이상 내 글을 볼 수 없다는 점이죠…. 이번에는 Google Search Console을 이용해 구글 검색에서도 블로그가 노출될 수 있도록 설정해보겠습니다.
+
+그럼, 시작해볼까요? 💎
+
+블로그 구축 포스팅 보러가기
+댓글 서비스 적용 포스팅 보러가기
+goatCounter를 이용해 조회수 서비스 적용하는 방법
+
+
+
+1. Google Search Console 사이트 이용
+
+  
+    1.0 Google Search Console 사이트에 접속합니다.
+
+    
+  
+  
+    1.1 시작하기 버튼을 클릭합니다.
+  
+  
+...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>goatCounter를 이용해서 조회수 서비스 적용하는 방법</title>
+    <link href="https://eo-yeon.github.io/posts/goatcounter/" rel="alternate" type="text/html" title="goatCounter를 이용해서 조회수 서비스 적용하는 방법" />
+    <published>2024-11-18T00:00:00+09:00</published>
+  
+    <updated>2024-11-18T00:00:00+09:00</updated>
+  
+    <id>https://eo-yeon.github.io/posts/goatcounter/</id>
+    <content type="text/html" src="https://eo-yeon.github.io/posts/goatcounter/" />
+    <author>
+      <name>eoyeon</name>
+    </author>
+
+  
+    
+    <category term="opensource study" />
+    
+  
+
+  <summary>시작하기전 . . . 👻
+댓글 기능도 넣고 나니 이제 블로그다운 느낌이 점차 살아나는 것 같아 좋군요! 😎
+그런데 아직은 내가 쓴 글을 몇 명이 읽었는지, 정말 내 글이 읽히고 있는지 알 방법이 없네요.
+그래서 오늘은 바로 조회수 서비스를 적용하는 방법에 대해 포스팅해보려고 합니다.
+
+그럼, 시작해볼까요? 😊
+
+블로그 구축 포스팅 보러가기
+댓글 서비스 적용 포스팅 보러가기
+
+
+
+1. goatcounter사이트 이용
+
+  1.0 goatcounter 사이트에 접속합니다.
+
+
+
+
+
+  
+    1.1 sign up 버튼을 클릭합니다.
+  
+  
+    1.2 필요한 정보들을 입력합니다.
+    
+      Code: goatcounter를 사용할 때의 개인 코드
+      Site domain: 내 블로그...</summary>
+
+  </entry>
+
+</feed>
+
+
