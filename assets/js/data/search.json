@@ -2,6 +2,23 @@
   
   {
     "title": "백준 2635번 수 이어가기 문제 풀이 (Python)",
+    "url": "/posts/%EB%B0%B1%EC%A4%80-2635-test/",
+    "categories": "baekjoon",
+    "tags": "",
+    "date": "2025-08-09 11:15:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "문제 요약주어진 양의 정수 N으로 시작하여, 두 번째 수부터는 앞의 두 수의 차를 이용해 새로운 수를 만드는 수열이 있습니다. 수열의 마지막 수가 음수가 되기 전까지 수열을 이어갈 때, 가장 긴 수열을 만들 수 있는 경우를 찾아야 합니다.접근 방법이 문제의 핵심은 첫 번째 수 N 다음으로 오는 두 번째 수가 무엇이냐에 따라 수열의 길이가 달라진다는 점...",
+    "content": "문제 요약주어진 양의 정수 N으로 시작하여, 두 번째 수부터는 앞의 두 수의 차를 이용해 새로운 수를 만드는 수열이 있습니다. 수열의 마지막 수가 음수가 되기 전까지 수열을 이어갈 때, 가장 긴 수열을 만들 수 있는 경우를 찾아야 합니다.접근 방법이 문제의 핵심은 첫 번째 수 N 다음으로 오는 두 번째 수가 무엇이냐에 따라 수열의 길이가 달라진다는 점입니다.따라서 두 번째 수를 1부터 N까지 모두 시도해보는 완전 탐색(Brute Force) 방식을 사용했습니다.  두 번째 수 i를 1부터 N까지 반복하면서 수열을 만들고, 그중 가장 긴 수열을 찾습니다.  각 수열이 완성되면 기존에 저장해 둔 가장 긴 수열과 길이를 비교해 갱신합니다.  모든 경우를 확인한 후, 가장 길었던 수열의 길이와 수열을 출력합니다.전체 코드 (Python)```pythonn = int(input())max_l = 0max_num = []for i in range(1, n+1):    numbers = [n, i]while numbers[-1] &gt;= 0:    numbers.append(numbers[-2] - numbers[-1])numbers.pop()if max_l &lt; len(numbers):    max_l = len(numbers)    max_num = numbersprint(max_l)print(*max_num)"
+  },
+  
+  {
+    "title": "백준 2635번 수 이어가기 문제 풀이 (Python)",
     "url": "/posts/backjoon/",
     "categories": "baekjoon",
     "tags": "",
