@@ -4,7 +4,7 @@ title:  "goatCounter를 이용해서 조회수 서비스 적용하는 방법"
 date:   2024-11-18
 categories: [opensource study]
 author: eoyeon
-pin: true
+- pin: true
 ---
 
 # 시작하기전 . . . 👻
